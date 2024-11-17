@@ -61,6 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* TYPOGRAPHY */
 .text-preset-1 {
+  color: var(--white);
   font-family: "outfit", serif;
   font-size: 1.375rem;
   font-style: normal;
@@ -69,6 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-preset-2 {
+  color: var(--soft-blue);
   font-family: "Outfit", serif;
   font-size: 1.125rem;
   font-style: normal;
@@ -77,6 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-preset-3 {
+  color: var(--soft-blue);
   font-family: "Outfit", serif;
   font-size: 0.937rem;
   font-style: normal;
@@ -84,3 +87,77 @@ h1, h2, h3, h4, h5, h6 {
   line-height: normal;
 }
 
+.alt-3 {
+  color: var(--cyan);
+  font-weight: 600;
+}
+
+/* LAYOUT */
+.card {
+  background-color: var(--card-background-color);
+  display: flex;
+  flex-direction: column;
+  height: 33.94rem;
+  width: 20.44rem;
+  margin: 3.88rem auto;
+  border-radius: 0.94rem;
+}
+
+.card-image {
+  height: 17.375rem;
+  width: 17.375rem;
+  margin: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.image {
+  background: cover no-repeat;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem 1.5rem 1rem 1.5rem;
+  gap: 0.75rem;
+  width: 17.375rem;
+}
+
+.card-price {
+  display: flex;
+  width: 17.375rem;
+  margin: 0rem 1.5rem;
+}
+
+.curency-box {
+  display: flex;
+  gap: 0.34rem;
+  margin-right: 6.3rem;
+}
+
+.time-box {
+  display: flex;
+  gap: 0.34rem;
+}
+
+hr{
+  margin: 1rem 1.5rem;
+  border: solid 1px var(--soft-blue);
+}
+
+.card-owner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0rem 1.5rem;
+}
+
+.avatar {
+  width: 2.0625rem;
+  height: 2.0625rem;
+  border: solid 1px var(--white);
+  border-radius: 50%;
+}
+
+.white{
+  color: var(--white);
+}
