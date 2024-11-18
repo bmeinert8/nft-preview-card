@@ -35,4 +35,27 @@
     cursor: pointer;
     color: var(--cyan);
   }
+
+  .view {
+    position: absolute;
+    top: 5.4rem;
+    right: 59..18rem;
+    width: 18.88rem;
+    height: 18.88rem;
+    background-color: var(--cyan);
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+  }
+
+  .view-icon {
+    opacity: 1;
+  }
+
+  .view:hover {
+    opacity: 0.45;
+    cursor: pointer;
+  }
 }
