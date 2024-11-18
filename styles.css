@@ -107,10 +107,12 @@ h1, h2, h3, h4, h5, h6 {
   height: 17.375rem;
   width: 17.375rem;
   margin: 1.5rem;
-  border-radius: 0.5rem;
+  
 }
 
-.image {
+
+.nft-image {
+  border-radius: 0.5rem;
   background: cover no-repeat;
 }
 
@@ -128,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0rem 1.5rem;
 }
 
-.curency-box {
+.price-box {
   display: flex;
   gap: 0.34rem;
   margin-right: 6.3rem;

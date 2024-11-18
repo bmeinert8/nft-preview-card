@@ -1,0 +1,38 @@
+@media (min-width: 48rem) {
+  .card {
+    width: 21.88rem;
+    height: 37.25rem;
+  }
+
+  .card-image {
+    height: 18.88rem;
+    width: 18.88rem;
+  }
+
+  .card-info {
+    gap: 1rem;
+    width: 18.88rem;
+    margin: 0rem 1.5rem 1.5rem 1.5rem;
+  }
+
+  .card-price {
+    width: 18.88rem;
+  }
+
+  .price-box {
+    margin-right: 7.8rem;
+  }
+
+  hr {
+    margin-top: 1.5rem; 
+  }
+
+  .card-owner {
+    margin-top: .2rem;
+  }
+
+  .desktop-hover:hover {
+    cursor: pointer;
+    color: var(--cyan);
+  }
+}
